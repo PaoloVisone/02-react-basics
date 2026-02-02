@@ -2,6 +2,9 @@ import Profilo from "./components/Profilo";
 import ProdottoCard from "./components/ProdottoCard";
 import Dashboard from "./components/Dashboard";
 import Badge from "./components/Badge";
+import Counter from "./components/Counter";
+import LightSwitch from "./components/LightSwitch";
+import GreetingForm from "./components/GreetingForm";
 
 function App() {
   // Dati nel componente genitore
@@ -39,6 +42,9 @@ function App() {
       <Dashboard prodotti={prodottiElettronici} titolo="Elettronica" />
       <hr />
       <Dashboard prodotti={prodottiCasa} titolo="Casa Smart" />
+      <Counter />
+      <LightSwitch />
+      <GreetingForm />
     </div>
   );
 }
