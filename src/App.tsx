@@ -5,6 +5,9 @@ import Badge from "./components/Badge";
 import Counter from "./components/Counter";
 import LightSwitch from "./components/LightSwitch";
 import GreetingForm from "./components/GreetingForm";
+import AddItemForm from "./components/AddItemForm";
+import ItemList from "./components/ItemList";
+import TodoList from "./components/TodoList";
 
 function App() {
   // Dati nel componente genitore
@@ -45,6 +48,9 @@ function App() {
       <Counter />
       <LightSwitch />
       <GreetingForm />
+      <AddItemForm />
+      <ItemList />
+      <TodoList />
     </div>
   );
 }
